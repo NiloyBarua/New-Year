@@ -1,0 +1,244 @@
+* {
+    margin: 20px 20px;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+
+/* Banner Starts Here */
+.banner-img {
+    max-width: 100%;
+    filter: brightness(50%);
+    border-radius: 5px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner-headline {
+    font-size: 32px;
+}
+
+.banner-description {
+    font-size: 72px;
+}
+
+/* Banner ends Here */
+
+/* off section starts here*/
+.off-sections {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.off-text {
+    margin-bottom: 50px;
+    font-size: 88px;
+    font-weight: bold;
+    color: red;
+}
+
+.holiday-deals {
+    font-size: 24px;
+    color: red;
+}
+
+.categories {
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.new-year-photo {
+    width: 802;
+    height: 500;
+}
+
+/* OFF SEction Ends Here */
+
+.midnight-section {
+    height: 600px;
+    background-image: url(/Images/Vectorrr.png);
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+.midnight-text {
+    width: 60%;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.midnight-heading {
+    font-size: 64px;
+}
+
+.midnight-description {
+    font-size: 20px;
+}
+
+.midnight-btn {
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Place Starts Here */
+.place-section {
+    height: 483px;
+    background-image: linear-gradient(wheat, white);
+    margin-top: 50px;
+    border-radius: 10px;
+
+
+
+}
+
+.place-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.place-section p {
+    color: red;
+}
+
+.place {
+    color: black;
+}
+
+.btn-join {
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+/* Place Ends Here */
+
+/* 
+Best Offer Starts ghere */
+.best-offer-section {
+    display: flex;
+    gap: 30px;
+}
+
+.column1heading {
+    color: red;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+}
+
+.column1subheading {
+    color: black;
+    font-family: "merriweather", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.column1description {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.column2img {
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+    width: 360px;
+    height: 360px;
+}
+
+.column3heading {
+    color: red;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+}
+
+.column3description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+/* Best Offer Ends here */
+
+.holidays{
+    color: red;
+}
+.fiftysale{
+    font-size: 72px;
+    font-family: "Merriweather",sans-serif;
+    text-align: center;
+}
+.functional{
+    font-size: 24px;
+    font-family: "Inter",sans-serif;
+    text-align: center;
+}
+
+.lorem{
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 100px;
+}
+
+.pashapashi{
+    display: flex;
+    margin-top: 50px;
+}
+
+.giftbox{
+    height: 577px;
+    width: 674px;
+    margin-top: 110px;
+    z-index: 4;
+}
+.fiftyoff{
+    width: 220px;
+    height: 220px;
+    margin-top: 130px;
+    right: 30%;
+    position: relative;
+}
+
+.holiday-sale-section{
+    margin: 20px ;
+}
+.fiftygirl{
+    display: flex;
+}
+.girl{
+    position: absolute;
+    width: 429px;
+    height: 433px;
+}
+.red{
+    width: 87.8%;
+   position: absolute;
+   margin-top: -255px;
+   z-index: 1;
+    
+}
