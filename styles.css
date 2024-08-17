@@ -185,6 +185,8 @@ Best Offer Starts ghere */
 
 /* Best Offer Ends here */
 
+
+/* Holiday Starts Here */
 .holidays{
     color: red;
 }
@@ -241,4 +243,113 @@ Best Offer Starts ghere */
    margin-top: -255px;
    z-index: 1;
     
+}
+
+/* Holiday Ends Here */
+
+/* Gift Starts Here */
+.gift-sections{
+    margin-top: 200px;
+}
+.gift-heading{
+    font-size: 24px;
+    color: red;
+}
+
+.gift-subheading{
+    font-size: 48px;
+    font-family: "Merriweather",sans-serif;
+    font-weight: bold;
+}
+
+.gift-description{
+    font-size: 20px;
+    
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+}
+.img-grid img{
+    width: 300px;
+    height: 300px;
+}
+
+
+/* Gift Ends Here */
+
+
+.newsletter-section{
+    background-color: wheat;
+    text-align: center;
+    padding: 60px;
+}
+.newsletter-img{ 
+    position: relative;
+}
+
+.email-button{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    
+}
+
+.input-email{
+    background-color: rgb(247, 238, 221);
+    padding: 5px 80px;
+    border: 0;
+    border-radius: 10px 0px 0px 10px;
+    height: 30px;
+    font-family: bold;
+}
+.btn-subscribe{
+    background-color: red;
+    padding: 5px 40px;
+    color: white;
+    border: 0;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -100px;
+    font-weight: bold;
+}
+
+/* Newsletter Ends Here */
+
+
+.footer{
+    background-color: rgb(1, 1, 41);
+    color: white;
+    font-size: 14px;
+}
+
+.adressphone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call,.website{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.icons img{
+    height: 50px;
+    width: 50px;
+}
+
+.cright{
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+    width: 60%;
+    margin-left: 20%;
 }
